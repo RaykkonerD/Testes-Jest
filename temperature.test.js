@@ -33,7 +33,7 @@ test('Converter de Celsius para Fahrenheit', () => {
     let resultado = converter.celsiusToFahrenheit(temperatura);
 
     // Verificar
-    expect(resultado).toBeCloseTo(183.2, 2); // Precisão de 2 casas decimais
+    expect(resultado).toBeCloseTo(47.12, 2); // Precisão de 2 casas decimais
 }); 
 
 test('Converter de Celsius para Kelvin', () => {
